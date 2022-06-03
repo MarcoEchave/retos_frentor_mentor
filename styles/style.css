@@ -1,0 +1,33 @@
+:root{
+    --footer:#13183e;
+    --fondo_main:#f7f7ff;
+    --button_footer:#983fd3;
+    --buttom_header:#12183d;
+}
+body{
+    font-size: 62.5%;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.header .titulo_header{
+    font-size: 1.3rem;
+}
+.header .button-header{
+    background-color: var(--buttom_header);
+    color: #fff;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+}
+.principal{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: var(--footer);
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
