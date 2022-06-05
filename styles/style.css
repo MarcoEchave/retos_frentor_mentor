@@ -1,0 +1,45 @@
+:root{
+    --opinion-color:#172339;
+    --color-opinion:#8a94a3;
+
+}
+*{
+    border: 0;
+    margin: 0;
+}
+.body{
+    font-size: 62.5%;
+}
+.header{
+    height: 32px;
+    margin:15px;
+}
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.header-list-button{
+    color: black;
+    background-color: #fff;
+    border-radius: 8%;
+    border: 1px solid #000;
+    padding: 5px;
+}
+.main-opinions{
+    background-color:var(--opinion-color) ;
+    color: var(--color-opinion);
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list{
+    display: flex;
+    list-style: none;
+    padding:10px
+}
+.footer-list li{
+    margin: 10px;
+}
